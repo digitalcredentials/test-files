@@ -36,8 +36,7 @@
             "id": "https://raw.githubusercontent.com/digitalcredentials/test-files/main/svg-templates/tec-de-monterrey-sample-1.svg",
             "type": "SvgRenderingTemplate2023",
             "name": "PDF Display",
-            "css3MediaQuery": "@media (orientation: portrait)",
-            "digestMultibase": "zQmAPdhyxzznFCwYxAp2dRerWC85Wg6wFl9G270iEu5h6JqW"
+            "css3MediaQuery": "@media (orientation: portrait)"
         }]
     }
 }
