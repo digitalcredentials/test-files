@@ -149,7 +149,7 @@
        x="26.599356"
        y="185.22084" /></g><text
      xml:space="preserve"
-     style="font-weight:bold;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
+     style="font-weight:bold;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:left;text-anchor:middle;fill:#000000;stroke-width:0.264583"
      x="107.03424"
      y="234.29964"
      id="text2"><tspan
@@ -157,7 +157,7 @@
        id="tspan2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="107.03424"
-       y="234.29964">Título Electrónico Folio Control: {{credential.name}}</tspan></text><text
+       y="234.29964">Título Electrónico Folio Control: {{credential.evidence.[0].narrative}}</tspan></text><text
      xml:space="preserve"
      style="font-weight:bold;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
      x="107.17041"
@@ -172,7 +172,7 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="107.17041"
        y="257.25885"
-       id="tspan3"> {{credential.evidence[1].narrative}}</tspan></text><text
+       id="tspan3"> {{credential.evidence.[1].narrative}}</tspan></text><text
      xml:space="preserve"
      style="font-weight:bold;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.264583"
      x="109.68612"
@@ -187,4 +187,4 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93889px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';stroke-width:0.264583"
        x="109.68612"
        y="284.37445"
-       id="tspan3-2"> {{credential.evidence[2].narrative}}</tspan></text></svg>
+       id="tspan3-2"> {{credential.evidence.[2].narrative}}</tspan></text></svg>
