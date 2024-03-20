@@ -48,6 +48,7 @@
         }
 		
 		.sello-autenticocion {
+			width: 80%;
 			overflow-wrap: break-word;
 		}
     </style>
@@ -68,7 +69,7 @@
     <img src="https://github.com/digitalcredentials/test-files/assets/206059/6acd3f0a-a774-4170-a93a-6079dc543125" width="500" height="124" alt=""/> </div>
     <p>Titulo Electronico folio control: {{ credential.evidence.[0].narrative }}</p>
     <p>Sello Autenticocion:</p>
-    <p class="sello-autenticocion">{{ credential.evidence.[1].narrative }}</p>
+    <p class="sello-autenticocion">{{ credential.evidence[1].narrative }}</p>
     <p>No. Certifico Autoridad:</p>
     <p>{{ credential.evidence.[2].narrative }}</p>
 </div>
