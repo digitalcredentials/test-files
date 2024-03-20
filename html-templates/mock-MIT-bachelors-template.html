@@ -1,72 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #ffffff; /* Optional: Set a background color */
-        }
-
-        .main-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            max-width: 80%;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        .main-container img {
-            /* Add styles for the image if needed */
-        }
-
-        h2 {
-            margin: 10px 0;
-        }
-
-        .signatures-container {
-            display: flex;
-            justify-content: space-evenly;
-            width: 90%;
-            margin-top: 20px; /* Adjust as needed */
-        }
-
-        .signature {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        p {
-            text-align: center;
-            margin: 10px 0;
-        }
-		
-		.sello-autenticocion {
-			width: 80%;
-			overflow-wrap: break-word;
-		}
-    </style>
+<meta charset="UTF-8">
+<title>MIT Degree</title>
 </head>
+
 <body>
-
-<div class="main-container">
-    <div>
-    <img src="https://github.com/digitalcredentials/test-files/assets/206059/b8eac313-ca72-43c3-a0ed-6ffca54733cc" width="600" height="171" alt=""/></div>
-    <p>concede a</p>
-    <h2>{{ credential.credentialSubject.name }}</h2>
-    <p>el titulo profesional de</p>
-    <h2>{{ credential.name }}</h2>
-    <p>considerando que ha cumplido con los estudios correspondientes y satisfecho todas los requisitos necesarios.</p>
-    <p>Dado en la ciudad de Monterrey, estado de Nuevo León, el dia</p>
-    <div class="signatures-container"> 
-    <img src="https://github.com/digitalcredentials/test-files/assets/206059/6acd3f0a-a774-4170-a93a-6079dc543125" width="500" height="124" alt=""/> </div>
-</div>
-
+<div align="center">
+<p>UPON THE RECOMMENDATION OF THE FACULTY </p>
+<p>HEREBY CONFERS ON</p>
+<p>{{ credential.credentialSubject.name }}</p>
+<p>THE MOCK DEGREE OF</p>
+<p>BACHELOR OF SCIENCE</p>
+<p>IN</p>
+<p>Computer Science</p>
+<p>IN RECOGNITION OF PROFICIENCY IN THE GENERAL AND THE</p>
+<p>SPECIAL STUDIES AND EXERCISES PRESCRIBED BY SAID INSTITUTION</p>
+<p>FOR SUCH MOCK DEGREE GIVEN THIS DAY UNDER THE SEAL OF THE</p>
+<P>INSTITUTE AT CAMBRIDGE IN THE COMMONWEALTH OF</P>
+<p>MASSACHUSETTS</p>
+<p><strong>September 16, 2020</strong></p>
 </body>
 </html>
