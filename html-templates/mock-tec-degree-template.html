@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style>
         body {
             margin: 0;
@@ -10,7 +9,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background-color: #ffffff; /* Optional: Set a background color */
+            background-color: #f0f0f0; /* Optional: Set a background color */
         }
 
         .main-container {
@@ -47,27 +46,29 @@
             text-align: center;
             margin: 10px 0;
         }
-		
-		.wrap {
-			width: 80% !important;
-            display: block;
-			overflow-wrap: break-word;
-		}
     </style>
 </head>
 <body>
 
 <div class="main-container">
-    <div>
-    <img src="https://github.com/digitalcredentials/test-files/assets/206059/b8eac313-ca72-43c3-a0ed-6ffca54733cc" width="600" height="171" alt=""/></div>
+    <div>image would go here</div>
     <p>concede a</p>
-    <h2>{{ credential.credentialSubject.name }}</h2>
+    <h2>{{ credential.subject.name }}</h2>
     <p>el titulo profesional de</p>
     <h2>{{ credential.name }}</h2>
     <p>considerando que ha cumplido con los estudios correspondientes y satisfecho todas los requisitos necesarios.</p>
     <p>Dado en la ciudad de Monterrey, estado de Nuevo León, el dia</p>
-    <div class="signatures-container"> 
-    <img src="https://github.com/digitalcredentials/test-files/assets/206059/6acd3f0a-a774-4170-a93a-6079dc543125" width="500" height="124" alt=""/> </div>
+    <p>{{ credential.awardedDate }}</p>
+    <div class="signatures-container">
+        <div class="signature">sig 1 <p>Rector y Presidente Ejecutivo</p></div>
+        <div class="signature">sig 2 <p>Rector de Profesional y Posgrado</p></div> 
+    </div>
+    <p>Titulo Electronico folio control: {{ credential.evidence.[0].narrative }}</p>
+    <p>Sello Autenticocion:</p>
+    <p>{{ credential.evidence.[1].narrative }}</p>
+    <p>No. Certifico Autoridad:</p>
+    <p>{{ credential.evidence.[2].narrative }}</p>
 </div>
+
 </body>
 </html>
